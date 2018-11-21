@@ -6,7 +6,7 @@
   "typings": "lib",
   "scripts": {
     "build": "tsc",
-    "start": "node -r tsconfig-paths/register lib/index.js"
+    "start": "ts-node --transpileOnly src/index.ts"
   },
   "directories": {
     "lib": "lib",
@@ -19,6 +19,7 @@
     "@elts/common": "^0.0.1"
   },
   "devDependencies": {
+    "ts-node": "^7.0.1",
     "tsconfig-paths": "^3.7.0"
   }
 }

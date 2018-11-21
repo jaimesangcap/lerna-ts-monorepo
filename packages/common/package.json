@@ -14,5 +14,8 @@
   },
   "files": [
     "lib"
-  ]
+  ],
+  "devDependencies": {
+    "ts-node": "^7.0.1"
+  }
 }

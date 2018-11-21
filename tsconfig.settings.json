@@ -13,7 +13,7 @@
     "sourceMap": true,
     "baseUrl": "./packages",
     "paths": {
-      "@elts/common/*": ["./common/src/*"]
+      "@elts/common/*": ["./common/lib/*"]
     }
   }
 }
