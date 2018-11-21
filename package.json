@@ -1,0 +1,14 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {
+    "build": "tsc -b"
+  },
+  "devDependencies": {
+    "lerna": "^3.4.3",
+    "typescript": "^3.1.6"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
