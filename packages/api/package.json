@@ -1,12 +1,12 @@
 {
   "name": "@elts/api",
   "version": "0.0.1",
-  "private": true,
   "author": "Jaime Sangcap <iam.daskul@gmail.com>",
   "main": "lib/index.js",
-  "typings": "lib/**/*.d.ts",
+  "typings": "lib",
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "start": "node -r tsconfig-paths/register lib/index.js"
   },
   "directories": {
     "lib": "lib",
@@ -17,5 +17,8 @@
   ],
   "dependencies": {
     "@elts/common": "^0.0.1"
+  },
+  "devDependencies": {
+    "tsconfig-paths": "^3.7.0"
   }
 }

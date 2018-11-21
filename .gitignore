@@ -3,3 +3,4 @@ lib/
 
 yarn-error.log*
 npm-error.log*
+lerna-debug.log*
