@@ -12,5 +12,9 @@
     "declarationMap": true,
     "sourceMap": true,
 
+    "baseUrl": "./packages",
+    "paths": {
+      "@elts/common/*": ["./common/src/*"]
+    }
   }
 }

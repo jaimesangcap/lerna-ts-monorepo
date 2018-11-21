@@ -4,6 +4,7 @@
   "private": true,
   "author": "Jaime Sangcap <iam.daskul@gmail.com>",
   "main": "lib/index.js",
+  "typings": "lib/**/*.d.ts",
   "scripts": {
     "build": "tsc"
   },
@@ -13,5 +14,8 @@
   },
   "files": [
     "lib"
-  ]
+  ],
+  "dependencies": {
+    "@elts/common": "^0.0.1"
+  }
 }
