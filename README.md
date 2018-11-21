@@ -8,10 +8,20 @@ This is a working setup for referencing local typescript package
 
 `node lib/index.js`
 
-there should be a console output
+there should be an error
 
-`Hello Jaime`
+```
+Error: Cannot find module '@elts/common/testing/seed'
+    at Function.Module._resolveFilename (internal/modules/cjs/loader.js:581:15)
+    at Function.Module._load (internal/modules/cjs/loader.js:507:25)
+    at Module.require (internal/modules/cjs/loader.js:637:17)
+    at require (internal/modules/cjs/helpers.js:20:18)
+    at Object.<anonymous> (F:\sanay\lerna-ts-monorepo\packages\api\lib\index.js:3:14)
+    at Module._compile (internal/modules/cjs/loader.js:689:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+    at Module.load (internal/modules/cjs/loader.js:599:32)
+    at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+    at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+```
 
-The example shows how `packages/api` referenced `packages/common` by importing it using `import { hello } from '@elts/common'` located at `packages/api/src/index.ts`
-
-**`git checkout with-paths`** to see the setup which is not working when having nested folder (`@elts/common/testing/seed`) as import
+Any help would be appreciated :)
